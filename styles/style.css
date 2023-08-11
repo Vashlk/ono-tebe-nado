@@ -291,9 +291,9 @@
 .about__title {
   font-weight: bold;
   font-size: 40px;
-  font-style: "Raleway" sans-serif;
-  font-weight: normal;
+  font-style: 'Raleway' sans-serif;
   text-transform: uppercase;
+  margin-left: 9px;
 }
 
 .about__column__footer {
@@ -305,6 +305,8 @@
   font-size: 20px;
   font-style: normal;
   line-height: normal;
+  margin-top: 4px;
+  margin-left: 10px;
 }
 
 .footer {
