@@ -278,8 +278,10 @@
   font-size: 20px;
   font-style: normal;
   line-height: normal;
-  text-decoration: underline;
+  text-decoration: none;
   columns: #000;
+  border-bottom: 1px solid black;
+  width: 192px;
 }
 
 .about {
@@ -388,7 +390,7 @@
 .footer__social-list {
   display: flex;
   justify-content: end;
-  gap: 46px;
+  gap: 48px;
   list-style-type: none;
 }
 
