@@ -33,6 +33,11 @@
   text-decoration: none;
 }
 
+.header__link {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
@@ -55,6 +60,16 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
+}
+
+.phone-number {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.email {
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .cover {
@@ -111,7 +126,7 @@
 .aligned-text_right {
   display: block;
   margin-top: 12px;
-  margin-right: 7px;
+  margin-right: 16px;
   letter-spacing: 60px;
   text-align: end;
 }
@@ -120,7 +135,7 @@
   letter-spacing: 60px;
 }
 .letter-spacing-not {
-  letter-spacing: 35px;
+  letter-spacing: 32px;
 }
 
 .cover__description {
@@ -359,6 +374,11 @@
 
 .footer__link_active {
   text-decoration: none;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .footer__social-list {
